@@ -1,0 +1,92 @@
+*{
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-color: rgba(239, 232, 232, 0.587);
+    padding-top: 100px;    
+}
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+header img{
+    height:36px;
+}
+header h1{
+    font: 40px;
+    font-weight: bold;
+}
+form{
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 56px;
+}
+#nome-atividade, #nota-atividade{
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-bottom: solid 2px black;
+    padding: 8px;
+}
+button{
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
+    cursor: pointer;
+
+}
+table{
+    width: 100%;
+    
+}
+table th{
+    border-bottom: 2px solid black;
+    padding: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+table td{
+    text-align: center;
+    border-bottom: solid 1px black;
+    height: 50px;
+    font-size: 20px;
+    padding: 8px 0;
+    
+
+}
+td img{
+    height: 30px;
+}
+.resultado{
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+
+}
+.aprovado{
+    background-color: green;
+    
+}
+.reprovado{
+    background-color: red;
+}
